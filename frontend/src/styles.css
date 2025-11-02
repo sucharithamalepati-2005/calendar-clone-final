@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.header { background: #f5f6f8; padding: 16px; border-bottom: 1px solid #ddd; }
+.app-root { max-width: 1100px; margin: 24px auto; padding: 0 12px; }
+
+.modal-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.45); display:flex; align-items:center; justify-content:center;
+}
+.modal {
+  background: white; padding: 18px; border-radius: 8px; width: 420px; max-width: 95%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.modal label { display:block; margin-top: 8px; font-size: 13px; color: #333; }
+.modal input[type="text"], .modal input[type="datetime-local"], .modal textarea, .modal input {
+  width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box;
+}
+.modal-actions { margin-top: 12px; display:flex; gap: 8px; justify-content: flex-end; }
+.modal button { padding: 8px 10px; border-radius: 6px; border: none; cursor: pointer; }
